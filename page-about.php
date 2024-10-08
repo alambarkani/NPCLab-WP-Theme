@@ -7,7 +7,7 @@ echo '<!-- page-about.php loaded -->';
 <div class="relative h-100 flex justify-center items-center bg-gradient-to-t from-blue-500 to-white gap-6">
     <img src="<?php echo get_template_directory_uri() . '/assets/images/NPC-LAB1.jpg'; ?>" alt="NPC LAB" class="w-full h-auto">
     <div class="absolute title-wrapper inset-0 flex flex-col text-white justify-center items-center" style="top: 30%;">
-        <h1 class="text-5xl text-white text-center font-bold font-heading p-4 rounded-lg ">
+        <h1 class="text-5xl text-white animate-slide-in-from-top font-header text-center font-bold font-heading p-4 rounded-lg">
             PT. NPC LABORATORIUM INDONESIA
         </h1>
     </div>
@@ -19,7 +19,7 @@ echo '<!-- page-about.php loaded -->';
                 <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
                     d="M4.37 7.657c2.063.528 2.396 2.806 3.202 3.87 1.07 1.413 2.075 1.228 3.192 2.644 1.805 2.289 1.312 5.705 1.312 6.705M20 15h-1a4 4 0 0 0-4 4v1M8.587 3.992c0 .822.112 1.886 1.515 2.58 1.402.693 2.918.351 2.918 2.334 0 .276 0 2.008 1.972 2.008 2.026.031 2.026-1.678 2.026-2.008 0-.65.527-.9 1.177-.9H20M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>
-            <p class=" text-white mt-1 font-bold">Satu Misi</p>
+            <p class=" text-white mt-1 font-bold">One Mission</p>
         </div>
         <p class=" text-center font-bold p-5">2k<br>Views</p>
     </div>
@@ -36,9 +36,9 @@ echo '<!-- page-about.php loaded -->';
         <div class="p-5 flex-grow flex flex-col justify-between">
             <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 "
                 style="display:inline-block;border-bottom:4px solid blue;padding-bottom:8px;">GOVERNMENT</h5>
-            <p>Pemerintah bertanggung jawab untuk merancang dan mengimplementasikan kebijakan yang mengatur berbagai
-                aspek kehidupan masyarakat. Ini melibatkan pembuatan regulasi, pengawasan, dan penyediaan layanan publik
-                seperti pendidikan, kesehatan, dan keamanan.</p>
+            <p> Lingkup kerja pemerintah meliputi pembuatan dan pelaksanaan kebijakan untuk memenuhi kebutuhan 
+                masyarakat, termasuk pengembangan undang-undang, penyediaan layanan publik, serta menjaga keamanan. 
+                Pemerintah juga bertanggung jawab atas transparansi dan akuntabilitas penggunaan sumber daya.</p>
         </div>
     </div>
     <!-- Card 2 -->
@@ -58,9 +58,10 @@ echo '<!-- page-about.php loaded -->';
         <div class="p-5 flex-grow flex flex-col justify-between">
             <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 "
                 style="display:inline-block;border-bottom:4px solid blue;padding-bottom:8px;">TRANSPORTATIONS</h5>
-            <p>Sektor transportasi mengelola pergerakan barang dan orang melalui pengembangan infrastruktur seperti
-                jalan, bandara, dan pelabuhan. Transportasi juga mencakup manajemen sistem transportasi publik dan
-                swasta untuk memastikan mobilitas yang efisien dan aman.</p>
+            <p> Sektor transportasi berfokus pada pergerakan orang dan barang, mencakup pembangunan infrastruktur 
+                seperti jalan dan jembatan, serta pengelolaan sistem transportasi. Sektor ini juga bertanggung 
+                jawab untuk memastikan keselamatan dan keamanan perjalanan, serta mengoptimalkan rute dan jadwal 
+                untuk efisiensi.</p>
         </div>
     </div>
     <!-- Card 3 -->
@@ -77,9 +78,10 @@ echo '<!-- page-about.php loaded -->';
         <div class="p-5 flex-grow flex flex-col justify-between">
             <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 "
                 style="display:inline-block;border-bottom:4px solid blue;padding-bottom:8px;">LOGISTICS</h5>
-            <p>Logistik berfokus pada pengelolaan rantai pasokan dari pengadaan bahan baku hingga distribusi produk
-                akhir. Ini mencakup manajemen gudang, pengaturan transportasi dan distribusi, serta pengendalian
-                kualitas untuk memastikan barang memenuhi standar.</p>
+            <p> Logistik berkaitan dengan pengelolaan rantai pasokan, yang mencakup pengangkutan barang dari satu 
+                lokasi ke lokasi lain dan pengelolaan penyimpanan. Sektor ini juga mengoptimalkan proses dari 
+                produksi hingga distribusi dan menggunakan teknologi untuk meningkatkan efisiensi dan transparansi 
+                dalam proses tersebut.</p>
         </div>
     </div>
     <!-- Card 4 -->
@@ -94,9 +96,10 @@ echo '<!-- page-about.php loaded -->';
         <div class="p-5 flex-grow flex flex-col justify-between">
             <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 "
                 style="display:inline-block;border-bottom:4px solid blue;padding-bottom:8px;">ENERGY</h5>
-            <p>Sektor energi meliputi produksi dan distribusi sumber energi seperti minyak, gas, batubara, nuklir, dan
-                energi terbarukan (matahari, angin, hidro). Fokus utama manajemen energi adalah kebijakan untuk
-                efisiensi berkelanjutan, pengurangan emisi, dan keamanan pasokan.</p>
+            <p> Lingkup kerja sektor energi meliputi produksi, distribusi, dan pengelolaan sumber daya energi. 
+                Hal ini mencakup pengembangan energi fosil dan terbarukan, serta pengaturan jaringan distribusi 
+                listrik dan gas. Sektor ini juga berfokus pada efisiensi energi dan kebijakan untuk memastikan 
+                ketersediaan energi yang berkelanjutan.</p>
         </div>
     </div>
     <!-- Card 5 -->
@@ -156,14 +159,15 @@ echo '<!-- page-about.php loaded -->';
         <div class="p-5 flex-grow flex flex-col justify-between">
             <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900 "
                 style="display:inline-block;border-bottom:4px solid blue;padding-bottom:8px;">AGRICULTURE</h5>
-            <p>pertanian adalah kegiatan ekonomi sehingga memerlukan dasar-dasar pengetahuan yang sama akan pengelolaan
-                tempat usaha, pemilihan bibit, metode budidaya, pengumpulan hasil, distribusi produk, pengolahan dan
-                pengemasan produk, dan pemasaran.</p>
+            <p> Sektor pertanian berfokus pada produksi makanan dan bahan mentah. Ini melibatkan kegiatan menanam 
+                dan memanen tanaman, serta beternak hewan. Pertanian juga mengelola sumber daya seperti tanah dan 
+                air, memastikan kualitas dan keamanan pangan, serta merencanakan strategi pemasaran untuk produk 
+                pertanian.</p>
         </div>
     </div>
 </div>
 
-<div class="text-white inline-block bg-blue-700 p-5">
+<div class="text-white inline-block bg-blue-600 p-5">
     <section data-gtm-key="tesla-banner-header-214" class="flex flex-col md:flex-row md:space-x-8 p-6 md:p-12">
         <section class="flex-none">
             <span class="text-7xl text-white font-bold p-5">
@@ -195,50 +199,84 @@ echo '<!-- page-about.php loaded -->';
     </section>
 </div>
 
-<div id="controls-carousel" class="relative text-center bg-blue-700 text-white w-full" data-carousel="static">
+<?php
+$data = [
+    [
+        'title' => '2013-2018',
+        'content' => 'Berdiri pada tahun 2013, NPC LAB memiliki fokus awal<br>
+            dalam bidang riset teknologi dan elektronika.<br>
+            Selain itu, NPC LAB didirikan dengan maksud bisa memfasilitasi atau<br>
+            mengemas karya anak bangsa dalam bidang teknologi dan elektronika<br>
+            supaya lebih bisa bersaing dengan produk impor.'
+    ],
+    [
+        'title' => '2018-2020',
+        'content' => 'NPC LAB terus berkembang, sehingga akhirnya pada 2018 dibentuk<br>
+            badan hukum dengan nama PT NPC Laboratorium Indonesia.<br>
+            Meskipun sudah berbentuk badan hukum, NPC LAB berusaha konsisten<br>
+            dalam bidang pengembangan teknologi dan elektronika.'
+    ],
+    [
+        'title' => '2020-2024',
+        'content' => 'Seiring berjalannya waktu, dengan mengolaborasikan berbagai<br>
+            disiplin keilmuan, NPC LAB menentukan untuk fokus pada tiga bidang<br>
+            pekerjaan, yaitu autonomus, drone, dan survey. Dipilihnya tiga bidang pekerjaan<br>
+            tersebut merupakan pekerjaan yang sudah sering ditangani oleh<br>
+            NPC LAB dan membuat beberapa klien untuk melakukan repeat order.'
+    ],
+];
+?>
+
+<div id="controls-carousel" class="relative text-center bg-blue-600 text-white w-full" data-carousel="static">
     <h2>Sejarah</h2>
     <h2>Latar Belakang</h2>
     <h2>NPC LAB</h2>
+    
     <!-- Slider indicators -->
     <div class="z-30 flex justify-center items-center text-white bottom-5 left-1/2 space-x-3 rtl:space-x-reverse p-5">
-        <button type="button"
-            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 -gray-700 -600 -white -gray-700"
-            aria-current="true" aria-label="Slide 1" data-carousel-slide-to="1">2013-2018</button>
-        <button type="button"
-            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 -gray-700 -600 -white -gray-700"
-            aria-current="false" aria-label="Slide 2" data-carousel-slide-to="2">2018-2020</button>
-        <button type="button"
-            class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 -gray-700 -600 -white -gray-700"
-            aria-current="false" aria-label="Slide 3" data-carousel-slide-to="3">2020-2024</button>
+        <?php foreach ($data as $index => $item): ?>
+            <button type="button"
+                class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
+                aria-current="<?= $index === 0 ? 'true' : 'false' ?>" 
+                aria-label="Slide <?= $index + 1 ?>" 
+                data-carousel-slide-to="<?= $index ?>"
+                onclick="showSlide(<?= $index ?>)">
+                <?= $item['title'] ?>
+            </button>
+        <?php endforeach; ?>
     </div>
 
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg mt-9">
-        <!-- Item 1 -->
-        <div class="hidden text-center ease-in-out" data-carousel-item>
-            <p>Berdiri pada tahun 2013, NPC LAB memiliki fokus awal<br>
-                dalam bidang riset teknologi dan elektronika.<br>
-                selain itu NPC LAB didirikan dengan maksud bisa memfasilitasi atau<br>
-                mengemas karya anak bangsa dalam bidang teknologi dan elektronika<br>
-                supaya lebih bisa bersaing dengan produk impor.</p>
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden text-center ease-in-out" data-carousel-item>
-            <p>NPC LAB terus berkembang, sehingga akhirnya pada 2018 dibentuk<br>
-                badan hukum dengan nama PT NPC Laboratorium Indonesia.<br>
-                Meskipun sudah berbentuk badan hukum, NPC LAB berusaha konsisten<br>
-                dalam bidang pengembangan teknologi dan elektronika</p>
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden text-center ease-in-out" data-carousel-item>
-            <p>Seiring berjalannya waktu, dengan mengolaborasikan berbagai<br>
-                disiplin keilmuan, NPC LAB menentukan untuk fokus pada tiga bidang<br>
-                pekerjaan, yaitu autonomus, drone dan survey. Dipilihnya tiga bidang pekerjaan <br>
-                tersebut merupakan pekerjaan yang sudah sering ditangani oleh<br>
-                NPC LAB dan membuat beberapa klient untuk melakukan repeat order</p>
-        </div>
+    <div class="relative h-56 text-white overflow-hidden rounded-lg mt-9">
+        <?php foreach ($data as $index => $item): ?>
+            <div class="<?= $index === 0 ? 'block' : 'hidden' ?> text-center ease-in-out" data-carousel-item>
+                <p><?= $item['content'] ?></p>
+            </div>
+        <?php endforeach; ?>
     </div>
 </div>
+
+<script>
+function showSlide(index) {
+    const items = document.querySelectorAll('[data-carousel-item]');
+    const buttons = document.querySelectorAll('[data-carousel-slide-to]');
+
+    // Hide all items
+    items.forEach((item, i) => {
+        item.classList.add('hidden');
+        if (i === index) {
+            item.classList.remove('hidden');
+        }
+    });
+
+    // Update button states
+    buttons.forEach((button, i) => {
+        button.setAttribute('aria-current', i === index ? 'true' : 'false');
+    });
+}
+</script>
+
+
 <script type="module">
     import axios from 'axios';
     window.axios = axios;
