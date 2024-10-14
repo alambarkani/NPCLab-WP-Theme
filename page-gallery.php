@@ -25,7 +25,11 @@ echo '<!-- page-about.php loaded -->';
                 <button id="prevButton1" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Prev</button>
                 <button id="nextButton1" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Next</button>
             </div>
-            <p class="mb-5 p-4 text-gray-700">Salah satu teknologi yang akan selalu digunakan dan berkembang hingga masa depan yaitu automation.</p>
+            <p class="mb-5 p-4 text-gray-700">Automation merupakan salah satu ilmu dasar yang dimiliki para founder NPC LAB. Ada beberapa project
+                automation yang sudah ditangani oleh NPC LAB. salah satu pengalaman kerja dalam bidang ini yaitu automasi pada batching plant. 
+                pekerjaan tersebut membuat sistem batching plant yang awalnya dioperasikan manual bisa dioperasikan secara otomatis dan manual. 
+                Beberapa Klien NPC LAB dalam bidang ini yaitu Wika Beton dan HK-SIS.
+            </p>
         </div>
     </div>
 </div>
@@ -43,7 +47,10 @@ echo '<!-- page-about.php loaded -->';
                 <button id="prevButton2" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Prev</button>
                 <button id="nextButton2" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Next</button>
             </div>
-            <p class="mb-5 p-4 text-gray-700">Akhir-akhir ini, drone merupakan salah satu pengembangan teknologi yang sangat menarik.</p>
+            <p class="mb-5 p-4 text-gray-700">Akhir-akhir ini, drone merupkan salah satu pengembangan teknologi yang sangat menarik. Di dunia drone 
+                dalam negeri, NPC LAB menjadi salah satu perusahaan yang cukup diperhitungkan. Hal ini tak lepas dari peranan NPC LAB dalam 
+                melakukan riset drone sesuai kemajuan teknologi ter-update. Dalam bidang ini NPC LAB sudah sering mengerjakan project berupa 
+                perakitan drone custom, pemanfaatan drone dan pelatihan mengenai drone.</p>
         </div>
     </div>
 </div>
@@ -61,35 +68,35 @@ echo '<!-- page-about.php loaded -->';
                 <button id="prevButton3" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Prev</button>
                 <button id="nextButton3" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Next</button>
             </div>
-            <p class="mb-5 p-4 text-gray-700">Survey Team terdiri dari orang-orang yang ahli di bidang hidrografi dan oseanografi.</p>
+            <p class="mb-5 p-4 text-gray-700">Salah satu tim yang membentuk NPC LAB merupakan tim yang mempunyai keahlian dalam bidang ilmu kebumian, 
+                sehingga NPC LAB menerima berbagai jasa survei kebumian, yaitu berupa pemetaan udara, survey topografi serta survey batimetri.</p>
         </div>
     </div>
 </div>
 
 <script>
     const images1 = [
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/auto1.jpg'; ?>", desc: "Proses Automation: Implementasi teknologi untuk meningkatkan efisiensi." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/auto2.jpg'; ?>", desc: "Sistem Kontrol PLC: Mengelola dan mengontrol sistem otomatisasi." }
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/auto1.jpg'; ?>", desc: "Pemasangan sistem otomasi Batching Plant | Wika Beton" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/auto2.jpg'; ?>", desc: "Pemasangan sistem otomasi Batching Plant | Wika Beton" }
     ];
 
     const images2 = [
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone1.jpg'; ?>", desc: "Menggunakan drone untuk pemetaan udara." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone2.jpg'; ?>", desc: "Drone dalam operasi pengawasan." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone3.jpg'; ?>", desc: "Pelatihan drone." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone4.jpg'; ?>", desc: "Drone VTOL." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone5.jpg'; ?>", desc: "Drone untuk menyembuarkan api." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone6.jpg'; ?>", desc: "Drone untuk pengiriman barang." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone7.jpg'; ?>", desc: "Drone untuk mengirim pelampung." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone8.jpg'; ?>", desc: "Drone untuk menyebarkan disinvektan." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone9.jpg'; ?>", desc: "Penggunaan drone dalam permukaan air." }
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone1.jpg'; ?>", desc: "Riset Pesawat Udara Tanpa Awak – SE 02 | Puspenerbal" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone2.jpg'; ?>", desc: "Pelatihan pengoperasian UAV – VTOL | Dittopad" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone3.jpg'; ?>", desc: "Pelatihan dasar drone| Unair" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone5.jpg'; ?>", desc: "Riset Flame Thrower Drone | PLN" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone6.jpg'; ?>", desc: "Riset Cargo Drone " },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone7.jpg'; ?>", desc: "Riset drone SAR" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone8.jpg'; ?>", desc: "Penyemprotan disinfectan pada masa pandemi" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/drone9.jpg'; ?>", desc: "Riset USV untuk survei batimetri" }
     ];
 
     const images3 = [
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/survey1.jpg'; ?>", desc: "Tim survey melakukan pengukuran di lapangan." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/survey2.jpg'; ?>", desc: "tim survey melakukan survey dalam laut" },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/s1.jpg'; ?>", desc: "Pengukuran menggunakan peralatan canggih." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/s2.jpg'; ?>", desc: "Survey menggunakan drone untuk efisiensi." },
-        { src: "<?php echo get_template_directory_uri() . '/assets/images/s3.jpg'; ?>", desc: "Survey menggunakan drone untuk efisiensi." }
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/survey1.jpg'; ?>", desc: "Survei Volume Existing Fly Ash" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/survey2.jpg'; ?>", desc: "Survei Batimetri untuk Alur Pelayaran" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/s1.jpg'; ?>", desc: "Survei untuk perencanaan tambang" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/s2.jpg'; ?>", desc: "Pemetaan udara area kawasan wisata Mentawai" },
+        { src: "<?php echo get_template_directory_uri() . '/assets/images/s3.jpg'; ?>", desc: "Pemetaan udara area kawasan wisata Kalimantan Timur" }
     ];
 
     let currentIndex1 = 0;
