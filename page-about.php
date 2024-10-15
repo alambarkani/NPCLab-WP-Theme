@@ -4,28 +4,67 @@ get_header();
 echo '<!-- page-about.php loaded -->';
 ?>
 
-<div class="relative h-100 flex justify-center items-center bg-gradient-to-t from-blue-500 to-white gap-6">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/NPC-LAB1.jpg'; ?>" alt="NPC LAB" class="w-full h-auto">
-    <div class="absolute title-wrapper inset-0 flex flex-col text-white justify-center items-center" style="top: 30%;">
-        <h1 class="text-5xl text-white animate-slide-in-from-top font-header text-center font-bold font-heading p-4 rounded-lg">
+<style>
+    @media (max-width: 600px) {
+        .title-wrapper {
+            top: 30%; /* Adjust this value to move the text higher */
+        }
+        .title-wrapper h1 {
+            font-size: 6vw; /* mobile font size */
+            font-weight: normal; /* non-bold for mobile */
+        }
+        
+        .desktop-only {
+            display: none; /* Hide on mobile */
+        }
+    }
+    @media (min-width: 601px) and (max-width: 768px) {
+        .title-wrapper {
+            top: 30%; /* Position for tablets */
+        }
+        .title-wrapper h1 {
+            font-size: 4vw; /* smaller size for tablets */
+            font-weight: bold; /* bold for larger screens */
+        }
+    }
+    @media (min-width: 769px) {
+        .title-wrapper {
+            top: 30%; /* Position for desktops */
+        }
+        .title-wrapper h1 {
+            font-size: 2.5rem; /* larger size for desktops */
+            font-weight: bold; /* bold for larger screens */
+        }
+    }
+</style>
+
+<div class="relative h-100 flex flex-col md:flex-row justify-center items-center bg-gradient-to-t from-blue-500 to-white gap-6">
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/NPC-LAB1.jpg'; ?>" alt="NPC LAB" class="w-full h-auto max-h-[300px] md:max-h-[400px] object-cover">
+    
+    <div class="absolute title-wrapper inset-0 flex flex-col text-white justify-center items-center">
+        <h1 class="text-white animate-slide-in-from-top font-header text-center font-bold font-heading rounded-lg" 
+            style="font-size: 4vw; /* responsive font size */
+                   line-height: 1.2; /* line height for readability */
+                   padding: 0 1rem; /* padding for mobile */
+                   ">
             PT. NPC LABORATORIUM INDONESIA
         </h1>
     </div>
-    <div class="absolute bottom-0 flex text-white items-center gap-9 p-6 w-full justify-center">
-        <p class=" text-center font-bold p-5">90+<br>Client</p>
-        <div class="flex flex-col items-center p-5">
-            <svg class="text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
-                    d="M4.37 7.657c2.063.528 2.396 2.806 3.202 3.87 1.07 1.413 2.075 1.228 3.192 2.644 1.805 2.289 1.312 5.705 1.312 6.705M20 15h-1a4 4 0 0 0-4 4v1M8.587 3.992c0 .822.112 1.886 1.515 2.58 1.402.693 2.918.351 2.918 2.334 0 .276 0 2.008 1.972 2.008 2.026.031 2.026-1.678 2.026-2.008 0-.65.527-.9 1.177-.9H20M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+
+    <section class="absolute bottom-0 flex flex-row text-white items-center gap-4 p-5 md:p-6 w-full justify-center desktop-only">
+        <p class="text-center font-bold">90+<br>Clients</p>
+        <div class="flex flex-col items-center">
+            <svg class="text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4.37 7.657c2.063.528 2.396 2.806 3.202 3.87 1.07 1.413 2.075 1.228 3.192 2.644 1.805 2.289 1.312 5.705 1.312 6.705M20 15h-1a4 4 0 0 0-4 4v1M8.587 3.992c0 .822.112 1.886 1.515 2.58 1.402.693 2.918.351 2.918 2.334 0 .276 0 2.008 1.972 2.008 2.026.031 2.026-1.678 2.026-2.008 0-.65.527-.9 1.177-.9H20M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
             </svg>
-            <p class=" text-white mt-1 font-bold">One Mission</p>
+            <p class="text-white font-bold">One Mission</p>
         </div>
-        <p class=" text-center font-bold p-5">2k<br>Views</p>
-    </div>
+        <p class="text-center font-bold">2k<br>Views</p>
+    </section>
 </div>
+
 <div class="flex justify-center bg-white items-center text-center flex-wrap gap-4 p-4">
-    <h5 class="text-center font-bold p-5" style="font-size: 46px">LINGKUP KERJA</h5>
+    <h5 class="text-center font-header font-bold p-5" style="font-size: 41.5px">LINGKUP KERJA</h5>
     <!-- Card 1 -->
     <div
         class="hover:bg-blue-200 max-w-sm bg-white border border-gray-50 rounded-lg items-center shadow flex flex-col p-5 transition-shadow duration-300 hover:shadow-lg">
@@ -167,62 +206,89 @@ echo '<!-- page-about.php loaded -->';
     </div>
 </div>
 
-<div class="text-white inline-block bg-blue-600 p-5">
-    <section data-gtm-key="tesla-banner-header-214" class="flex flex-col md:flex-row md:space-x-8 p-6 md:p-12">
-        <section class="flex-none">
-            <span class="text-7xl text-white font-bold p-5">
-                VISI
-            </span>
-        </section>
-        <section class="flex-1">
-            <div class="space-y-4">
-                <div class="hidden md:block">
-                    Menjadi perusahaan yang terdepan dalam penelitian untuk pengembangan dan produksi teknologi dalam
-                    negeri, sehingga NPC LAB bisa memenuhi kebutuhan dalam penciptaan dan pengembangan teknologi dalam
-                    negeri.
+<div class="block text-white block-layout-builder bg-blue-600 block-inline-blockbanner-header p-5">
+    <section data-gtm-key="tesla-banner-header-653" class="tcl-section-header-group" id="tesla-banner-header-653">
+        <section class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-8 p-6 max-w-screen-lg mx-auto">
+            <!-- Aside Content -->
+            <section class="flex-none p-5">
+                <span class="tcl-section-header-group__header text-5xl  font-semibold" role="heading">
+                    <span>VISI</span>
+                </span>
+            </section>
+            <!-- Main Content -->
+            <section class="flex-1">
+                <div class="tcl-section-header-group__copy tcl-fit-content">
+
+                    <!-- Desktop View -->
+                    <div class="hidden md:block tcl-section-header-group__copy-desktop">
+                        Menjadi perusahaan yang terdepan dalam penelitian untuk pengembangan dan produksi teknologi dalam negeri, sehingga NPC LAB bisa memenuhi kebutuhan dalam penciptaan dan pengembangan teknologi dalam negeri.
+                    </div>
+
+                    <!-- Mobile View -->
+                    <div class="block  md:hidden tcl-section-header-group__copy-mobile">
+                        Menjadi perusahaan yang terdepan dalam penelitian untuk pengembangan dan produksi teknologi dalam negeri, sehingga NPC LAB bisa memenuhi kebutuhan dalam penciptaan dan pengembangan teknologi dalam negeri.
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="flex-none">
-            <span class="text-7xl text-white font-bold p-5">
-                MISI
-            </span>
-        </section>
-        <section class="flex-1">
-            <div class="space-y-4">
-                <div class="hidden md:block">
-                    Memenuhi keinginan pasar teknologi dalam negeri dalam bentuk jasa maupun produksi barang untuk
-                    kemandirian bangsa.
+            </section>  
+
+            <!-- Mission Content -->
+            <section class="flex-none p-5">
+                <span class="tcl-section-header-group__header text-5xl  font-semibold" role="heading">
+                    <span>MISI</span>
+                </span>
+            </section>
+            <section class="flex-1">
+                <div class="tcl-section-header-group__copy tcl-fit-content">
+
+                    <!-- Desktop View -->
+                    <div class="hidden md:block tcl-section-header-group__copy-desktop">
+                        Memenuhi keinginan pasar teknologi dalam negeri dalam bentuk jasa maupun produksi barang untuk kemandirian bangsa.
+                    </div>
+
+                    <!-- Mobile View -->
+                    <div class="block  md:hidden tcl-section-header-group__copy-mobile">
+                        Memenuhi keinginan pasar teknologi dalam negeri dalam bentuk jasa maupun produksi barang untuk kemandirian bangsa.
+                    </div>
                 </div>
-            </div>
+            </section>  
         </section>
     </section>
 </div>
+
+
+
 
 <?php
 $data = [
     [
         'title' => '2013-2018',
-        'content' => 'Berdiri pada tahun 2013, NPC LAB memiliki fokus awal<br>
-            dalam bidang riset teknologi dan elektronika.<br>
-            Selain itu, NPC LAB didirikan dengan maksud bisa memfasilitasi atau<br>
-            mengemas karya anak bangsa dalam bidang teknologi dan elektronika<br>
-            supaya lebih bisa bersaing dengan produk impor.'
+        'content' => 'Berdiri pada tahun 2013, NPC LAB memiliki<br> 
+            fokus awal dalam bidang riset teknologi dan<br> 
+            elektronika. Selain itu, NPC LAB didirikan<br> 
+            dengan maksud bisa memfasilitasi atau<br> 
+            mengemas karya anak bangsa dalam bidang<br> 
+            teknologi dan elektronika supaya lebih bisa<br> 
+            bersaing dengan produk impor.'
     ],
     [
         'title' => '2018-2020',
-        'content' => 'NPC LAB terus berkembang, sehingga akhirnya pada 2018 dibentuk<br>
-            badan hukum dengan nama PT NPC Laboratorium Indonesia.<br>
-            Meskipun sudah berbentuk badan hukum, NPC LAB berusaha konsisten<br>
-            dalam bidang pengembangan teknologi dan elektronika.'
+        'content' => 'NPC LAB terus berkembang, sehingga<br> 
+            akhirnya pada 2018 dibentuk badan hukum<br> 
+            dengan nama PT NPC Laboratorium<br> 
+            Indonesia. Meskipun sudah berbentuk badan<br> 
+            hukum, NPC LAB berusaha konsisten dalam<br> 
+            bidang pengembangan teknologi dan elektronika.'
     ],
     [
         'title' => '2020-2024',
-        'content' => 'Seiring berjalannya waktu, dengan mengolaborasikan berbagai<br>
-            disiplin keilmuan, NPC LAB menentukan untuk fokus pada tiga bidang<br>
-            pekerjaan, yaitu autonomus, drone, dan survey. Dipilihnya tiga bidang pekerjaan<br>
-            tersebut merupakan pekerjaan yang sudah sering ditangani oleh<br>
-            NPC LAB dan membuat beberapa klien untuk melakukan repeat order.'
+        'content' => 'Seiring berjalannya waktu, dengan<br> 
+            berkolaborasi berbagai disiplin keilmuan,<br> 
+            NPC LAB fokus pada tiga bidang pekerjaan,<br>
+            yaitu autonomus, drone, dan survey. tiga<br> 
+            bidang pekerjaan tersebut merupakan<br> 
+            pekerjaan yang sudah sering ditangani oleh<br>
+            NPC LAB dan membuat beberapa klien untuk<br> 
+            melakukan repeat order.'
     ],
 ];
 ?>

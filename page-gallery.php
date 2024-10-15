@@ -25,7 +25,7 @@ echo '<!-- page-about.php loaded -->';
                 <button id="prevButton1" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Prev</button>
                 <button id="nextButton1" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Next</button>
             </div>
-            <p class="mb-5 p-4 text-gray-700">Automation merupakan salah satu ilmu dasar yang dimiliki para founder NPC LAB. Ada beberapa project
+            <p class="mb-5 p-4 text-center text-gray-700">Automation merupakan salah satu ilmu dasar yang dimiliki para founder NPC LAB. Ada beberapa project
                 automation yang sudah ditangani oleh NPC LAB. salah satu pengalaman kerja dalam bidang ini yaitu automasi pada batching plant. 
                 pekerjaan tersebut membuat sistem batching plant yang awalnya dioperasikan manual bisa dioperasikan secara otomatis dan manual. 
                 Beberapa Klien NPC LAB dalam bidang ini yaitu Wika Beton dan HK-SIS.
@@ -47,7 +47,7 @@ echo '<!-- page-about.php loaded -->';
                 <button id="prevButton2" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Prev</button>
                 <button id="nextButton2" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Next</button>
             </div>
-            <p class="mb-5 p-4 text-gray-700">Akhir-akhir ini, drone merupkan salah satu pengembangan teknologi yang sangat menarik. Di dunia drone 
+            <p class="mb-5 p-4 text-center text-gray-700">Akhir-akhir ini, drone merupkan salah satu pengembangan teknologi yang sangat menarik. Di dunia drone 
                 dalam negeri, NPC LAB menjadi salah satu perusahaan yang cukup diperhitungkan. Hal ini tak lepas dari peranan NPC LAB dalam 
                 melakukan riset drone sesuai kemajuan teknologi ter-update. Dalam bidang ini NPC LAB sudah sering mengerjakan project berupa 
                 perakitan drone custom, pemanfaatan drone dan pelatihan mengenai drone.</p>
@@ -68,7 +68,7 @@ echo '<!-- page-about.php loaded -->';
                 <button id="prevButton3" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Prev</button>
                 <button id="nextButton3" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Next</button>
             </div>
-            <p class="mb-5 p-4 text-gray-700">Salah satu tim yang membentuk NPC LAB merupakan tim yang mempunyai keahlian dalam bidang ilmu kebumian, 
+            <p class="mb-5 p-4 text-center text-gray-700">Salah satu tim yang membentuk NPC LAB merupakan tim yang mempunyai keahlian dalam bidang ilmu kebumian, 
                 sehingga NPC LAB menerima berbagai jasa survei kebumian, yaitu berupa pemetaan udara, survey topografi serta survey batimetri.</p>
         </div>
     </div>
